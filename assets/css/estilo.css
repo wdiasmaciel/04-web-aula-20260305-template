@@ -68,10 +68,10 @@ nav {
     /* border: .1rem rgb(74, 234, 74) solid; */
     display: flex;
     flex: 1;
-    padding: .5rem;
+    padding: 1rem;
     flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+    gap: .8rem;
+    justify-content: left 
 }
 
 footer {

@@ -3,7 +3,7 @@
     flex-direction: column;
     border: 1px solid #ccc;
     padding: 1rem;
-    margin: 1rem;
+    /* margin: 1rem; */
     border-radius: .5rem;
     width: 15rem;
     box-shadow: .3rem .3rem 0.3rem 0.03rem #eee;
