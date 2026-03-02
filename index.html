@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site</title>
-    <link rel="stylesheet" href="assets/estilo.css">
+    <link rel="stylesheet" href="assets/css/estilo.css">
 </head>
 
 <body>
@@ -15,17 +15,20 @@
     </header>
     <section>
         <nav>Menu Lateral</nav>
-        <main>
+        <main id="noticias" class="container">
             <div class="cartao">
-                <img class="imagem" src="assets/img/mobilidade.png">
-                <h1 class="titulo">Mobilidade Urbana</h1>
-                    <p>
-                        <span class="categoria">Transporte</span> - <span class="data">05/03/2026</span>
+                <img class="imagem-do-cartao" src="assets/img/mobilidade.png">
+                <section class="corpo-do-cartao">
+                    <h1 class="titulo-do-cartao">Mobilidade Urbana</h1>
+                    <p class="classificacao">
+                        <span class="categoria-da-noticia">Transporte</span> <span class="data-da-noticia">05/03/2026</span>
                     </p>
-                    <p class="descricao">
+                    <p class="descricao-da-noticia">
                         Prefeitura Lança Novo Plano de Mobilidade Urbana
                     </p>
-                    <a href="#" class="botao">Leia mais</a>
+                    <p class="autor-da-noticia">Ana Maria Silva</p>
+                </section>
+                <a href="#" class="botao-do-cartao">Leia mais</a>
             </div>
         </main>
     </section>

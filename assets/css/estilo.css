@@ -1,3 +1,5 @@
+@import url("cartao.css");
+
 * {
     font-size: 16px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -61,20 +63,15 @@ nav {
     padding: .5rem;
 }
 
-main {
+
+.container {
     /* border: .1rem rgb(74, 234, 74) solid; */
     display: flex;
     flex: 1;
     padding: .5rem;
-}
-
-.cartao {
-    border: 1px solid #ccc;
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: .5rem;
-    width: 15rem;
-    box-shadow: .3rem .3rem 0.3rem 0.03rem #eee;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
 }
 
 footer {
